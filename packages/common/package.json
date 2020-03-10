@@ -7,7 +7,7 @@
     "build": "rimraf dist && tsc"
   },
   "keywords": [],
-  "author": "@codewaseem",
+  "author": "Waseem Ahmed <codewaseem@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "react": "16.13.0",

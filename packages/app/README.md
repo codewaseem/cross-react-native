@@ -1,3 +1,13 @@
+# IMPORTANT STEP TO MAKE IT WORK
+
+1. add wml `npm i -g wml`
+2. $ `wml add ../common ./node_modules/@cross-rnw/common`
+3. $ `wml start` [ if this failed, continue to next step, else build the app from other terminal]
+4. if the above step failed, then do $ `watchman watch ../common`
+5. $ `wml start`, now this must work.
+
+All the above commands must be executed from this directory
+
 # :space_invader: React Native Template TypeScript
 
 <p>

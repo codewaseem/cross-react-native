@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-ts-mobx-starter",
+  "name": "@cross-rnw/web",
   "private": true,
   "description": "A Gatsby starter with typescript, mobx and jest",
   "version": "0.0.1",
@@ -87,7 +87,8 @@
       "gatsby-plugin-react-native-web/**",
       "gatsby",
       "gatsby/**",
-      "gatsby*"
+      "gatsby*",
+      "@cross-rnw/common"
     ]
   }
 }

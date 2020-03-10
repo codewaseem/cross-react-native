@@ -2,6 +2,7 @@
   "name": "@cross-rnw/app",
   "version": "0.0.1",
   "private": true,
+  "author": "Waseem Ahmed <codewaseem@gmail.com>",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -10,6 +11,7 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@cross-rnw/common": "0.0.1",
     "react": "16.13.0",
     "react-native": "0.61.5"
   },
@@ -23,6 +25,7 @@
     "@typescript-eslint/eslint-plugin": "^2.23.0",
     "@typescript-eslint/parser": "^2.23.0",
     "babel-jest": "^25.1.0",
+    "babel-plugin-module-resolver": "^4.0.0",
     "eslint": "^6.8.0",
     "jest": "^25.1.0",
     "metro-react-native-babel-preset": "^0.58.0",

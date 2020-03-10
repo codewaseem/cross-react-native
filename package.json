@@ -9,7 +9,9 @@
   },
   "author": "@codewaseem",
   "license": "MIT",
-  "workspaces": [
-    "packages/*"
-  ]
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
 }
