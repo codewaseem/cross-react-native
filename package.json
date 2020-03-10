@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "fullstack-react-native",
+  "version": "0.0.1",
+  "description": "Fullstack cross-platform react-native project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@codewaseem",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@cross-rnw/common",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "16.13.0",
+    "react-native": "0.61.5"
+  },
+  "devDependencies": {
+    "@types/react-native": "0.61.20",
+    "rimraf": "^3.0.2",
+    "typescript": "3.8.3"
+  }
+}
